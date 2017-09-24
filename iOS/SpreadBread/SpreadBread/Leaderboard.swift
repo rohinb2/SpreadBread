@@ -18,8 +18,8 @@ class LeaderboardViewController: UIViewController {
     
     var leaderboardJSON = JSON()
     
-    override func viewDidLoad() {
-        
+    override func viewDidAppear(_ animated: Bool) {
+        print("ASdsaD")
         let url = URL(string: "http://6a72124a.ngrok.io/top5")
         
         var rj = ""
@@ -27,7 +27,7 @@ class LeaderboardViewController: UIViewController {
         let task = URLSession.shared.dataTask(with: url!) {(data, response, error) in
             
             rj = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)! as String
-            
+            print(rj)
             if let dataFromString = rj.data(using: .utf8, allowLossyConversion: false) {
                 
                 do {
@@ -36,15 +36,16 @@ class LeaderboardViewController: UIViewController {
                     
                     DispatchQueue.main.async {
                         
-                        self.first.text = "Name: \(self.leaderboardJSON[0]["name"]), Score: \(self.leaderboardJSON[0]["score"])"
-                    
-                        self.second.text = "Name: \(self.leaderboardJSON[1]["name"]), Score: \(self.leaderboardJSON[1]["score"])"
+                        self.first.text = "1. Name: \(self.leaderboardJSON[0]["name"]), Score: \(self.leaderboardJSON[0]["score"])"
+                        print(self.leaderboardJSON[1]["score"])
                         
-                        self.third.text = "Name: \(self.leaderboardJSON[2]["name"]), Score: \(self.leaderboardJSON[2]["score"])"
+                        self.second.text = "2. Name: \(self.leaderboardJSON[1]["name"]), Score: \(self.leaderboardJSON[1]["score"])"
                         
-                        self.fourth.text = "Name: \(self.leaderboardJSON[3]["name"]), Score: \(self.leaderboardJSON[3]["score"])"
+                        self.third.text = "3. Name: \(self.leaderboardJSON[2]["name"]), Score: \(self.leaderboardJSON[2]["score"])"
                         
-                        self.fifth.text = "Name: \(self.leaderboardJSON[4]["name"]), Score: \(self.leaderboardJSON[4]["score"])"
+                        self.fourth.text = "4. Name: \(self.leaderboardJSON[3]["name"]), Score: \(self.leaderboardJSON[3]["score"])"
+                        
+                        self.fifth.text = "5. Name: \(self.leaderboardJSON[4]["name"]), Score: \(self.leaderboardJSON[4]["score"])"
                         
                         
                     }
@@ -61,6 +62,11 @@ class LeaderboardViewController: UIViewController {
         }
         
         task.resume()
+    }
+    
+    override func viewDidLoad() {
+        print("q")
+        
         
     }
     

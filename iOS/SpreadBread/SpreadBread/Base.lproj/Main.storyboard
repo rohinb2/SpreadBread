@@ -104,12 +104,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="logosmall" translatesAutoresizingMaskIntoConstraints="NO" id="pTk-DI-Lyq">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logosmall" translatesAutoresizingMaskIntoConstraints="NO" id="pTk-DI-Lyq">
                                 <rect key="frame" x="117" y="18" width="141" height="64"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="141" id="Zws-Ph-NVZ"/>
-                                    <constraint firstAttribute="height" constant="64" id="tsP-yB-qne"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJ6-cd-9sq">
                                 <rect key="frame" x="22" y="90" width="331" height="21"/>
@@ -206,11 +203,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91322969543147203" green="0.73123692061432477" blue="0.55231336268790776" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Label">
+                                    <fragment content=".">
                                         <attributes>
                                             <color key="NSColor" red="0.61568627450980395" green="0.3411764705882353" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="18" name="GillSans"/>
-                                            <font key="NSOriginalFont" size="18" name="GillSans"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -236,11 +232,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91322969539999999" green="0.73123692060000001" blue="0.55231336269999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Label">
+                                    <fragment content=".">
                                         <attributes>
                                             <color key="NSColor" red="0.61568627450980395" green="0.3411764705882353" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="18" name="GillSans"/>
-                                            <font key="NSOriginalFont" size="18" name="GillSans"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -252,11 +247,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91322969539999999" green="0.73123692060000001" blue="0.55231336269999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Label">
+                                    <fragment content=".">
                                         <attributes>
                                             <color key="NSColor" red="0.61568627450980395" green="0.3411764705882353" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="18" name="GillSans"/>
-                                            <font key="NSOriginalFont" size="18" name="GillSans"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -268,11 +262,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91322969539999999" green="0.73123692060000001" blue="0.55231336269999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Label">
+                                    <fragment content=".">
                                         <attributes>
                                             <color key="NSColor" red="0.61568627450980395" green="0.3411764705882353" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="18" name="GillSans"/>
-                                            <font key="NSOriginalFont" size="18" name="GillSans"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -284,11 +277,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91322969539999999" green="0.73123692060000001" blue="0.55231336269999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Label">
+                                    <fragment content=".">
                                         <attributes>
                                             <color key="NSColor" red="0.61568627450980395" green="0.3411764705882353" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="18" name="GillSans"/>
-                                            <font key="NSOriginalFont" size="18" name="GillSans"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -300,11 +292,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91322969539999999" green="0.73123692060000001" blue="0.55231336269999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Label">
+                                    <fragment content=".">
                                         <attributes>
                                             <color key="NSColor" red="0.61568627450980395" green="0.3411764705882353" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="18" name="GillSans"/>
-                                            <font key="NSOriginalFont" size="18" name="GillSans"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -316,11 +307,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91322969539999999" green="0.73123692060000001" blue="0.55231336269999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Label">
+                                    <fragment content=".">
                                         <attributes>
                                             <color key="NSColor" red="0.61568627450980395" green="0.3411764705882353" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="18" name="GillSans"/>
-                                            <font key="NSOriginalFont" size="18" name="GillSans"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -332,11 +322,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91322969539999999" green="0.73123692060000001" blue="0.55231336269999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Label">
+                                    <fragment content="Loading...">
                                         <attributes>
                                             <color key="NSColor" red="0.61568627450980395" green="0.3411764705882353" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="18" name="GillSans"/>
-                                            <font key="NSOriginalFont" size="18" name="GillSans"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -348,11 +337,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91322969539999999" green="0.73123692060000001" blue="0.55231336269999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Label">
+                                    <fragment content=".">
                                         <attributes>
                                             <color key="NSColor" red="0.61568627450980395" green="0.3411764705882353" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="18" name="GillSans"/>
-                                            <font key="NSOriginalFont" size="18" name="GillSans"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -398,23 +386,19 @@
                                 <rect key="frame" x="166" y="313" width="32" height="20.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="logosmall" translatesAutoresizingMaskIntoConstraints="NO" id="yja-p0-jQm">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logosmall" translatesAutoresizingMaskIntoConstraints="NO" id="yja-p0-jQm">
                                 <rect key="frame" x="117" y="20" width="141" height="64"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="64" id="1F8-md-Nec"/>
-                                    <constraint firstAttribute="width" constant="141" id="Eku-dw-UEe"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17m-lZ-sjd">
                                 <rect key="frame" x="0.0" y="151" width="375" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91322969539999999" green="0.73123692060000001" blue="0.55231336269999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Label">
+                                    <fragment content=".">
                                         <attributes>
                                             <color key="NSColor" red="0.61568627450980395" green="0.3411764705882353" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="18" name="GillSans"/>
-                                            <font key="NSOriginalFont" size="18" name="GillSans"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -426,11 +410,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91322969539999999" green="0.73123692060000001" blue="0.55231336269999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Label">
+                                    <fragment content=".">
                                         <attributes>
                                             <color key="NSColor" red="0.61568627450980395" green="0.3411764705882353" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="18" name="GillSans"/>
-                                            <font key="NSOriginalFont" size="18" name="GillSans"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -442,11 +425,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91322969539999999" green="0.73123692060000001" blue="0.55231336269999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Label">
+                                    <fragment content="Loading...">
                                         <attributes>
                                             <color key="NSColor" red="0.61568627450980395" green="0.3411764705882353" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="18" name="GillSans"/>
-                                            <font key="NSOriginalFont" size="18" name="GillSans"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -458,11 +440,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91322969539999999" green="0.73123692060000001" blue="0.55231336269999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Label">
+                                    <fragment content=".">
                                         <attributes>
                                             <color key="NSColor" red="0.61568627450980395" green="0.3411764705882353" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="18" name="GillSans"/>
-                                            <font key="NSOriginalFont" size="18" name="GillSans"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -474,11 +455,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91322969539999999" green="0.73123692060000001" blue="0.55231336269999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Label">
+                                    <fragment content=".">
                                         <attributes>
                                             <color key="NSColor" red="0.61568627450980395" green="0.3411764705882353" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="18" name="GillSans"/>
-                                            <font key="NSOriginalFont" size="18" name="GillSans"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -487,15 +467,15 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="yja-p0-jQm" firstAttribute="leading" secondItem="FTD-0c-VHE" secondAttribute="leading" constant="117" id="IQN-CW-LJH"/>
-                            <constraint firstItem="FTD-0c-VHE" firstAttribute="trailing" secondItem="yja-p0-jQm" secondAttribute="trailing" constant="117" id="aSC-bj-M7H"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="FTD-0c-VHE"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Leaderboard" image="TabBar_MostViewed_2x" id="cZ5-W7-6v7"/>
                     <connections>
+                        <outlet property="fifth" destination="oVq-Cp-Oal" id="YI9-6a-Zrd"/>
                         <outlet property="first" destination="17m-lZ-sjd" id="4Sc-J5-YP0"/>
+                        <outlet property="fourth" destination="Po3-l9-9CE" id="KMI-Xk-RmM"/>
+                        <outlet property="second" destination="gUC-YO-Oag" id="6JQ-tk-O8f"/>
+                        <outlet property="third" destination="EGW-KL-lcr" id="jNq-WK-0dh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cfy-Pr-zVF" userLabel="First Responder" sceneMemberID="firstResponder"/>
