@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EC6722B1F77888F00A5D465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC6722A1F77888F00A5D465 /* AppDelegate.swift */; };
+		7EC6722D1F77888F00A5D465 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC6722C1F77888F00A5D465 /* ViewController.swift */; };
+		7EC672301F77888F00A5D465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC6722E1F77888F00A5D465 /* Main.storyboard */; };
+		7EC672321F77888F00A5D465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC672311F77888F00A5D465 /* Assets.xcassets */; };
+		7EC672351F77888F00A5D465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC672331F77888F00A5D465 /* LaunchScreen.storyboard */; };
+		7EC672401F77888F00A5D465 /* pyghack_mapkit_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC6723F1F77888F00A5D465 /* pyghack_mapkit_testTests.swift */; };
+		7EC6724B1F77888F00A5D465 /* pyghack_mapkit_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC6724A1F77888F00A5D465 /* pyghack_mapkit_testUITests.swift */; };
+		7EC672591F77927500A5D465 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC672581F77927500A5D465 /* SwiftyJSON.swift */; };
+		7EC6725B1F7796C800A5D465 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC6725A1F7796C800A5D465 /* Annotation.swift */; };
+		7EC6725D1F7800D100A5D465 /* leaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC6725C1F7800D100A5D465 /* leaderboard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EC6723C1F77888F00A5D465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EC6721F1F77888F00A5D465 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EC672261F77888F00A5D465;
+			remoteInfo = "pyghack-mapkit-test";
+		};
+		7EC672471F77888F00A5D465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EC6721F1F77888F00A5D465 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EC672261F77888F00A5D465;
+			remoteInfo = "pyghack-mapkit-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EC672271F77888F00A5D465 /* pyghack-mapkit-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pyghack-mapkit-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC6722A1F77888F00A5D465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EC6722C1F77888F00A5D465 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EC6722F1F77888F00A5D465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EC672311F77888F00A5D465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EC672341F77888F00A5D465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EC672361F77888F00A5D465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC6723B1F77888F00A5D465 /* pyghack-mapkit-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pyghack-mapkit-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC6723F1F77888F00A5D465 /* pyghack_mapkit_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pyghack_mapkit_testTests.swift; sourceTree = "<group>"; };
+		7EC672411F77888F00A5D465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC672461F77888F00A5D465 /* pyghack-mapkit-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pyghack-mapkit-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC6724A1F77888F00A5D465 /* pyghack_mapkit_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pyghack_mapkit_testUITests.swift; sourceTree = "<group>"; };
+		7EC6724C1F77888F00A5D465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC672581F77927500A5D465 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		7EC6725A1F7796C800A5D465 /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
+		7EC6725C1F7800D100A5D465 /* leaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leaderboard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EC672241F77888F00A5D465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC672381F77888F00A5D465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC672431F77888F00A5D465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EC6721E1F77888F00A5D465 = {
+			isa = PBXGroup;
+			children = (
+				7EC672291F77888F00A5D465 /* pyghack-mapkit-test */,
+				7EC6723E1F77888F00A5D465 /* pyghack-mapkit-testTests */,
+				7EC672491F77888F00A5D465 /* pyghack-mapkit-testUITests */,
+				7EC672281F77888F00A5D465 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EC672281F77888F00A5D465 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EC672271F77888F00A5D465 /* pyghack-mapkit-test.app */,
+				7EC6723B1F77888F00A5D465 /* pyghack-mapkit-testTests.xctest */,
+				7EC672461F77888F00A5D465 /* pyghack-mapkit-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EC672291F77888F00A5D465 /* pyghack-mapkit-test */ = {
+			isa = PBXGroup;
+			children = (
+				7EC6722A1F77888F00A5D465 /* AppDelegate.swift */,
+				7EC672581F77927500A5D465 /* SwiftyJSON.swift */,
+				7EC6722C1F77888F00A5D465 /* ViewController.swift */,
+				7EC6722E1F77888F00A5D465 /* Main.storyboard */,
+				7EC672311F77888F00A5D465 /* Assets.xcassets */,
+				7EC672331F77888F00A5D465 /* LaunchScreen.storyboard */,
+				7EC672361F77888F00A5D465 /* Info.plist */,
+				7EC6725A1F7796C800A5D465 /* Annotation.swift */,
+				7EC6725C1F7800D100A5D465 /* leaderboard.swift */,
+			);
+			path = "pyghack-mapkit-test";
+			sourceTree = "<group>";
+		};
+		7EC6723E1F77888F00A5D465 /* pyghack-mapkit-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EC6723F1F77888F00A5D465 /* pyghack_mapkit_testTests.swift */,
+				7EC672411F77888F00A5D465 /* Info.plist */,
+			);
+			path = "pyghack-mapkit-testTests";
+			sourceTree = "<group>";
+		};
+		7EC672491F77888F00A5D465 /* pyghack-mapkit-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EC6724A1F77888F00A5D465 /* pyghack_mapkit_testUITests.swift */,
+				7EC6724C1F77888F00A5D465 /* Info.plist */,
+			);
+			path = "pyghack-mapkit-testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EC672261F77888F00A5D465 /* pyghack-mapkit-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC6724F1F77888F00A5D465 /* Build configuration list for PBXNativeTarget "pyghack-mapkit-test" */;
+			buildPhases = (
+				7EC672231F77888F00A5D465 /* Sources */,
+				7EC672241F77888F00A5D465 /* Frameworks */,
+				7EC672251F77888F00A5D465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pyghack-mapkit-test";
+			productName = "pyghack-mapkit-test";
+			productReference = 7EC672271F77888F00A5D465 /* pyghack-mapkit-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EC6723A1F77888F00A5D465 /* pyghack-mapkit-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC672521F77888F00A5D465 /* Build configuration list for PBXNativeTarget "pyghack-mapkit-testTests" */;
+			buildPhases = (
+				7EC672371F77888F00A5D465 /* Sources */,
+				7EC672381F77888F00A5D465 /* Frameworks */,
+				7EC672391F77888F00A5D465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EC6723D1F77888F00A5D465 /* PBXTargetDependency */,
+			);
+			name = "pyghack-mapkit-testTests";
+			productName = "pyghack-mapkit-testTests";
+			productReference = 7EC6723B1F77888F00A5D465 /* pyghack-mapkit-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EC672451F77888F00A5D465 /* pyghack-mapkit-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC672551F77888F00A5D465 /* Build configuration list for PBXNativeTarget "pyghack-mapkit-testUITests" */;
+			buildPhases = (
+				7EC672421F77888F00A5D465 /* Sources */,
+				7EC672431F77888F00A5D465 /* Frameworks */,
+				7EC672441F77888F00A5D465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EC672481F77888F00A5D465 /* PBXTargetDependency */,
+			);
+			name = "pyghack-mapkit-testUITests";
+			productName = "pyghack-mapkit-testUITests";
+			productReference = 7EC672461F77888F00A5D465 /* pyghack-mapkit-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EC6721F1F77888F00A5D465 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Rishi Masand";
+				TargetAttributes = {
+					7EC672261F77888F00A5D465 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					7EC6723A1F77888F00A5D465 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EC672261F77888F00A5D465;
+					};
+					7EC672451F77888F00A5D465 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EC672261F77888F00A5D465;
+					};
+				};
+			};
+			buildConfigurationList = 7EC672221F77888F00A5D465 /* Build configuration list for PBXProject "pyghack-mapkit-test" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EC6721E1F77888F00A5D465;
+			productRefGroup = 7EC672281F77888F00A5D465 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EC672261F77888F00A5D465 /* pyghack-mapkit-test */,
+				7EC6723A1F77888F00A5D465 /* pyghack-mapkit-testTests */,
+				7EC672451F77888F00A5D465 /* pyghack-mapkit-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EC672251F77888F00A5D465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC672351F77888F00A5D465 /* LaunchScreen.storyboard in Resources */,
+				7EC672321F77888F00A5D465 /* Assets.xcassets in Resources */,
+				7EC672301F77888F00A5D465 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC672391F77888F00A5D465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC672441F77888F00A5D465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EC672231F77888F00A5D465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC672591F77927500A5D465 /* SwiftyJSON.swift in Sources */,
+				7EC6722D1F77888F00A5D465 /* ViewController.swift in Sources */,
+				7EC6725B1F7796C800A5D465 /* Annotation.swift in Sources */,
+				7EC6722B1F77888F00A5D465 /* AppDelegate.swift in Sources */,
+				7EC6725D1F7800D100A5D465 /* leaderboard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC672371F77888F00A5D465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC672401F77888F00A5D465 /* pyghack_mapkit_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC672421F77888F00A5D465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC6724B1F77888F00A5D465 /* pyghack_mapkit_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EC6723D1F77888F00A5D465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EC672261F77888F00A5D465 /* pyghack-mapkit-test */;
+			targetProxy = 7EC6723C1F77888F00A5D465 /* PBXContainerItemProxy */;
+		};
+		7EC672481F77888F00A5D465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EC672261F77888F00A5D465 /* pyghack-mapkit-test */;
+			targetProxy = 7EC672471F77888F00A5D465 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EC6722E1F77888F00A5D465 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EC6722F1F77888F00A5D465 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EC672331F77888F00A5D465 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EC672341F77888F00A5D465 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EC6724D1F77888F00A5D465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EC6724E1F77888F00A5D465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EC672501F77888F00A5D465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZU588S9GNY;
+				INFOPLIST_FILE = "pyghack-mapkit-test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rishimasand.pyghack-mapkit-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EC672511F77888F00A5D465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZU588S9GNY;
+				INFOPLIST_FILE = "pyghack-mapkit-test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rishimasand.pyghack-mapkit-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7EC672531F77888F00A5D465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZU588S9GNY;
+				INFOPLIST_FILE = "pyghack-mapkit-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rishimasand.pyghack-mapkit-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pyghack-mapkit-test.app/pyghack-mapkit-test";
+			};
+			name = Debug;
+		};
+		7EC672541F77888F00A5D465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZU588S9GNY;
+				INFOPLIST_FILE = "pyghack-mapkit-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rishimasand.pyghack-mapkit-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pyghack-mapkit-test.app/pyghack-mapkit-test";
+			};
+			name = Release;
+		};
+		7EC672561F77888F00A5D465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZU588S9GNY;
+				INFOPLIST_FILE = "pyghack-mapkit-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rishimasand.pyghack-mapkit-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pyghack-mapkit-test";
+			};
+			name = Debug;
+		};
+		7EC672571F77888F00A5D465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZU588S9GNY;
+				INFOPLIST_FILE = "pyghack-mapkit-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rishimasand.pyghack-mapkit-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pyghack-mapkit-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EC672221F77888F00A5D465 /* Build configuration list for PBXProject "pyghack-mapkit-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC6724D1F77888F00A5D465 /* Debug */,
+				7EC6724E1F77888F00A5D465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC6724F1F77888F00A5D465 /* Build configuration list for PBXNativeTarget "pyghack-mapkit-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC672501F77888F00A5D465 /* Debug */,
+				7EC672511F77888F00A5D465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC672521F77888F00A5D465 /* Build configuration list for PBXNativeTarget "pyghack-mapkit-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC672531F77888F00A5D465 /* Debug */,
+				7EC672541F77888F00A5D465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC672551F77888F00A5D465 /* Build configuration list for PBXNativeTarget "pyghack-mapkit-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC672561F77888F00A5D465 /* Debug */,
+				7EC672571F77888F00A5D465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EC6721F1F77888F00A5D465 /* Project object */;
+}
